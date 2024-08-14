@@ -4,9 +4,175 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>notify-app</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="output.css" />
   </head>
-  <body class="bg-black">
+  <body class="bg-gray-100 font-PlusJakartaSans">
+    <div class="bg-white my-10 mx-64 p-5 max-xl:mx-8 max-xl:my-14">
+      <!-- header -->
+      <header class="flex justify-between items-center mb-8">
+        <div class="flex items-center justify-center gap-2">
+          <h2 class="bigText">Notifications</h2>
+          <h2
+            class="bg-Blue px-4 py-1 rounded-md text-white font-bold max-md:text-xs max-md:px-3"
+          >
+            0
+          </h2>
+        </div>
+
+        <p class="text-xl font-medium text-DarkGrayishBlue max-md:text-sm">
+          Mark all as read
+        </p>
+      </header>
+
+      <!--main-->
+      <main
+        class="w-full flex justify-start items-start flex-col first-of-type:after:"
+      >
+        <!-- card1 -->
+        <section
+          class="bg-VeryLightGrayishBlue flex justify-start items-center gap-3 p-3 mb-5 w-full"
+        >
+          <img
+            src="./images/avatar-mark-webber.webp"
+            alt="avatar-mark-webber"
+            class="w-10"
+          />
+          <figure>
+            <p class="text-DarkGrayishBlue">
+              <strong class="text-veryDark"> Mark Webber</strong>
+              reacted to your recent post
+              <b class="text-DarkGrayishBlue">My first tournament today! </b>
+              <span class="after:content-['•'] after:text-Red after:text-lg">
+              </span>
+            </p>
+            <p class="text-GrayishBlue">1m ago</p>
+          </figure>
+        </section>
+        <!-- card 2 -->
+
+        <section
+          class="bg-VeryLightGrayishBlue flex justify-start items-center gap-3 p-3 mb-5 w-full"
+        >
+          <img
+            src="./images/avatar-angela-gray.webp"
+            alt="avatar-angela-gray"
+            class="w-10"
+          />
+          <figure>
+            <p class="text-DarkGrayishBlue relative">
+              <strong class="text-veryDark"> Angela Gray </strong>
+              followed you
+              <span class="after:content-['•'] after:text-Red after:text-lg">
+              </span>
+            </p>
+            <p class="text-GrayishBlue">5m ago</p>
+          </figure>
+        </section>
+
+        <!-- card 3 -->
+        <section
+          class="bg-VeryLightGrayishBlue flex justify-start items-center gap-3 p-3 mb-5 w-full"
+        >
+          <img
+            src="./images/avatar-jacob-thompson.webp"
+            alt="avatar-jacob-thompson"
+            class="w-10"
+          />
+          <figure>
+            <p class="text-DarkGrayishBlue relative">
+              <strong class="text-veryDark"> Jacob Thompson</strong>
+              has joined your group
+
+              <b class="text-Blue">Chess Club </b>
+              <span class="after:content-['•'] after:text-Red after:text-lg">
+              </span>
+            </p>
+            <p class="text-GrayishBlue">1 day ago</p>
+          </figure>
+        </section>
+        <!-- card 4 -->
+
+        <section class="flex justify-start items-center gap-3 p-3 w-full">
+          <img
+            src="./images/avatar-rizky-hasanuddin.webp"
+            alt="avatar-rizky-hasanuddin"
+            class="w-10"
+          />
+          <figure>
+            <p class="text-DarkGrayishBlue">
+              <strong class="text-veryDark"> Rizky Hasanuddin </strong>
+              sent you a private message
+            </p>
+            <p class="text-GrayishBlue">5 days ago</p>
+          </figure>
+        </section>
+        <div class="message">
+          <p class="text-DarkGrayishBlue">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </p>
+        </div>
+
+        <!-- card5 -->
+
+        <section class="flex justify-start items-center gap-3 p-3 w-full mb-5">
+          <img
+            src="./images/avatar-kimberly-smith.webp"
+            alt="avatar-kimberly-smith"
+            class="w-10"
+          />
+          <figure>
+            <p class="text-DarkGrayishBlue">
+              <strong class="text-veryDark"> Kimberly Smith</strong>
+              commented on your picture
+            </p>
+            <p class="text-GrayishBlue">1 week ago</p>
+          </figure>
+        </section>
+
+        <section class="flex justify-start items-center gap-3 p-3 w-full mb-5">
+          <img
+            src="./images/avatar-nathan-peterson.webp"
+            alt="avatar-nathan-peterson"
+            class="w-10"
+          />
+          <figure>
+            <p class="text-DarkGrayishBlue">
+              <strong class="text-veryDark"> Nathan Peterson</strong>
+              reacted to your recent post
+              <b class="text-DarkGrayishBlue"
+                >5 end-game strategies to increase your win rat</b
+              >
+            </p>
+            <p class="text-GrayishBlue">2 weeks ago</p>
+          </figure>
+        </section>
+
+        <!-- card 6 -->
+
+        <section class="flex justify-start items-center gap-3 p-3 w-full mb-5">
+          <img
+            src="./images/avatar-anna-kim.webp"
+            alt="avatar-anna-kim"
+            class="w-10"
+          />
+          <figure>
+            <p class="text-DarkGrayishBlue">
+              <strong class="text-veryDark"> Anna Kim </strong>
+              left the group
+              <b class="text-Blue">Chess Club </b>
+            </p>
+            <p class="text-GrayishBlue">2 weeks ago</p>
+          </figure>
+        </section>
+      </main>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
+
+<!-- <div
+class="w-3 h-3 bg-Red rounded-lg absolute top-44 right-20"
+></div> -->

@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bigText {
+  @apply text-veryDark font-extrabold text-2xl max-md:text-base;
+}
+.message {
+  @apply mx-16 border-2 border-LightGrayishBlue1 p-4 rounded-md mb-5;
+}

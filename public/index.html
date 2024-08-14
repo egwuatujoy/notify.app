@@ -14,6 +14,7 @@
           <h2 class="bigText">Notifications</h2>
           <h2
             class="bg-Blue px-4 py-1 rounded-md text-white font-bold max-md:text-xs max-md:px-3"
+            id="notify-count"
           >
             0
           </h2>
@@ -29,66 +30,66 @@
         class="w-full flex justify-start items-start flex-col first-of-type:after:"
       >
         <!-- card1 -->
-        <section
-          class="bg-VeryLightGrayishBlue flex justify-start items-center gap-3 p-3 mb-5 w-full"
-        >
-          <img
-            src="./images/avatar-mark-webber.webp"
-            alt="avatar-mark-webber"
-            class="w-10"
-          />
-          <figure>
-            <p class="text-DarkGrayishBlue">
-              <strong class="text-veryDark"> Mark Webber</strong>
-              reacted to your recent post
-              <b class="text-DarkGrayishBlue">My first tournament today! </b>
-              <span class="after:content-['•'] after:text-Red after:text-lg">
-              </span>
-            </p>
-            <p class="text-GrayishBlue">1m ago</p>
-          </figure>
+        <section class="unread">
+          <div class="flex justify-start items-center gap-3 p-3 w-full">
+            <img
+              src="./images/avatar-mark-webber.webp"
+              alt="avatar-mark-webber"
+              class="w-10"
+            />
+            <figure>
+              <p class="text-DarkGrayishBlue">
+                <strong class="text-veryDark"> Mark Webber</strong>
+                reacted to your recent post
+                <b class="text-DarkGrayishBlue">My first tournament today! </b>
+                <span class="after:content-['•'] after:text-Red after:text-lg">
+                </span>
+              </p>
+              <p class="text-GrayishBlue">1m ago</p>
+            </figure>
+          </div>
         </section>
         <!-- card 2 -->
 
-        <section
-          class="bg-VeryLightGrayishBlue flex justify-start items-center gap-3 p-3 mb-5 w-full"
-        >
-          <img
-            src="./images/avatar-angela-gray.webp"
-            alt="avatar-angela-gray"
-            class="w-10"
-          />
-          <figure>
-            <p class="text-DarkGrayishBlue relative">
-              <strong class="text-veryDark"> Angela Gray </strong>
-              followed you
-              <span class="after:content-['•'] after:text-Red after:text-lg">
-              </span>
-            </p>
-            <p class="text-GrayishBlue">5m ago</p>
-          </figure>
+        <section class="unread">
+          <div class="flex justify-start items-center gap-3 p-3 w-full">
+            <img
+              src="./images/avatar-angela-gray.webp"
+              alt="avatar-angela-gray"
+              class="w-10"
+            />
+            <figure>
+              <p class="text-DarkGrayishBlue relative">
+                <strong class="text-veryDark"> Angela Gray </strong>
+                followed you
+                <span class="after:content-['•'] after:text-Red after:text-lg">
+                </span>
+              </p>
+              <p class="text-GrayishBlue">5m ago</p>
+            </figure>
+          </div>
         </section>
 
         <!-- card 3 -->
-        <section
-          class="bg-VeryLightGrayishBlue flex justify-start items-center gap-3 p-3 mb-5 w-full"
-        >
-          <img
-            src="./images/avatar-jacob-thompson.webp"
-            alt="avatar-jacob-thompson"
-            class="w-10"
-          />
-          <figure>
-            <p class="text-DarkGrayishBlue relative">
-              <strong class="text-veryDark"> Jacob Thompson</strong>
-              has joined your group
+        <section class="unread">
+          <div class="flex justify-start items-center gap-3 p-3 w-full">
+            <img
+              src="./images/avatar-jacob-thompson.webp"
+              alt="avatar-jacob-thompson"
+              class="w-10"
+            />
+            <figure>
+              <p class="text-DarkGrayishBlue relative">
+                <strong class="text-veryDark"> Jacob Thompson</strong>
+                has joined your group
 
-              <b class="text-Blue">Chess Club </b>
-              <span class="after:content-['•'] after:text-Red after:text-lg">
-              </span>
-            </p>
-            <p class="text-GrayishBlue">1 day ago</p>
-          </figure>
+                <b class="text-Blue">Chess Club </b>
+                <span class="after:content-['•'] after:text-Red after:text-lg">
+                </span>
+              </p>
+              <p class="text-GrayishBlue">1 day ago</p>
+            </figure>
+          </div>
         </section>
         <!-- card 4 -->
 
@@ -116,7 +117,7 @@
 
         <!-- card5 -->
 
-        <section class=" flex justify-between items-center p-3 w-full mb-5">
+        <section class="flex justify-between items-center p-3 w-full mb-5">
           <div class="flex justify-start items-center gap-3">
             <img
               src="./images/avatar-kimberly-smith.webp"

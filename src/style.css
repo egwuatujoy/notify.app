@@ -8,3 +8,7 @@
 .message {
   @apply mx-16 border-2 border-LightGrayishBlue1 p-4 rounded-md mb-5 w-fit h-fit;
 }
+
+.unread {
+  @apply bg-VeryLightGrayishBlue p-3 mb-3 w-full;
+}
